@@ -47,11 +47,12 @@ pip install opencv-python
 ## Project Structure
 ```
 ├── notebooks/
-│   ├── 1_data_preparation.ipynb
-│   ├── 2_yolo_training.ipynb
-│   ├── 3_keras_training.ipynb
-│   └── 4_pipeline_evaluation.ipynb
-├── splits/
+│   ├── 1 YOLO_mask_export.ipynb
+│   ├── 2 YOLOundersampling.ipynb.ipynb
+│   ├── 3 keras_test2.ipynb
+│   ├── 4 pipeline.ipynb
+│   └── 5 Yolo_mult.ipynb
+├── data_split/
 │   ├── universal_train_split.csv
 │   ├── universal_val_split.csv
 │   └── universal_test_split.csv
